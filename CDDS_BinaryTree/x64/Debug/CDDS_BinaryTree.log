@@ -1,3 +1,13 @@
 ﻿  BinaryTree.cpp
-C:\Users\lodis.perkins\Documents\GitHub\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(98): error C4716: 'BinaryTree::find': must return a value
-C:\Users\lodis.perkins\Documents\GitHub\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(122): error C4716: 'BinaryTree::findNode': must return a value
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(6,1): error C2084: function 'BinaryTree::~BinaryTree(void)' already has a body
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.h(13): message : see previous definition of '{dtor}'
+  TreeNode.cpp
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\TreeNode.cpp(15,24): error C2146: syntax error: missing ')' before identifier 'm_value'
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\TreeNode.cpp(15,18): warning C4473: 'sprintf' : not enough arguments passed for format string
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\TreeNode.cpp(15,18): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\TreeNode.cpp(15,18): message : the missing variadic argument 1 is required by format string '%d'
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\TreeNode.cpp(15,24): error C2146: syntax error: missing ';' before identifier 'm_value'
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\TreeNode.cpp(15,31): error C2059: syntax error: ')'
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\TreeNode.cpp(17,12): error C2065: 'a': undeclared identifier
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\TreeNode.cpp(17,2): error C3861: 'Drawcirle': identifier not found
+  Generating Code...
