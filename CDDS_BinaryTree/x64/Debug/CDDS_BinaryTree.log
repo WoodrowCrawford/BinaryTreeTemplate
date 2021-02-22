@@ -1,7 +1,5 @@
-﻿raylib.lib(core.obj) : warning LNK4099: PDB 'raylib.pdb' was not found with 'raylib.lib(core.obj)' or at 'C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\bin\x64\Debug\raylib.pdb'; linking object as if no debug info
-raylib.lib(rglfw.obj) : warning LNK4099: PDB 'raylib.pdb' was not found with 'raylib.lib(rglfw.obj)' or at 'C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\bin\x64\Debug\raylib.pdb'; linking object as if no debug info
-raylib.lib(shapes.obj) : warning LNK4099: PDB 'raylib.pdb' was not found with 'raylib.lib(shapes.obj)' or at 'C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\bin\x64\Debug\raylib.pdb'; linking object as if no debug info
-raylib.lib(text.obj) : warning LNK4099: PDB 'raylib.pdb' was not found with 'raylib.lib(text.obj)' or at 'C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\bin\x64\Debug\raylib.pdb'; linking object as if no debug info
-raylib.lib(textures.obj) : warning LNK4099: PDB 'raylib.pdb' was not found with 'raylib.lib(textures.obj)' or at 'C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\bin\x64\Debug\raylib.pdb'; linking object as if no debug info
-raylib.lib(utils.obj) : warning LNK4099: PDB 'raylib.pdb' was not found with 'raylib.lib(utils.obj)' or at 'C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\bin\x64\Debug\raylib.pdb'; linking object as if no debug info
+﻿  BinaryTree.cpp
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(76,66): warning C4805: '==': unsafe mix of type 'bool' and type 'int' in operation
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(76,42): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(78,70): warning C4805: '!=': unsafe mix of type 'bool' and type 'int' in operation
   CDDS_BinaryTree.vcxproj -> C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\bin\x64\Debug\CDDS_BinaryTree.exe
