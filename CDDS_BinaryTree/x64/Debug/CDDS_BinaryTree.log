@@ -1,5 +1,5 @@
 ﻿  BinaryTree.cpp
-C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(76,66): warning C4805: '==': unsafe mix of type 'bool' and type 'int' in operation
-C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(76,42): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(78,70): warning C4805: '!=': unsafe mix of type 'bool' and type 'int' in operation
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(78,66): warning C4805: '==': unsafe mix of type 'bool' and type 'int' in operation
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(78,42): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\CDDS_BinaryTree\BinaryTree.cpp(80,70): warning C4805: '!=': unsafe mix of type 'bool' and type 'int' in operation
   CDDS_BinaryTree.vcxproj -> C:\Users\s208050\Documents\Visual Studio 2019\BinaryTreeTemplate\bin\x64\Debug\CDDS_BinaryTree.exe

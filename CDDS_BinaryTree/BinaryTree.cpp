@@ -32,7 +32,7 @@ void BinaryTree::insert(int value)
 			//Set the parent node to be the current node before the current node moves positions.
 			parent = currentNode;
 			//Change the current node to be the child to its left and continue.
-			currentNode->getLeft();
+			currentNode->setLeft(currentNode);
 		}
 
 
@@ -42,7 +42,7 @@ void BinaryTree::insert(int value)
 			//Set the parent node to be the current node before the current node moves positions.
 			parent = currentNode;
 			//Change the current node to be the child to its right and continue.
-			currentNode->getRight();
+			currentNode->setRight(currentNode);
 		}
 
 		//If the value is the same as a value already in the list return 
@@ -58,6 +58,8 @@ void BinaryTree::insert(int value)
 	if (value < parent->getData())
 	{
 		parent->setLeft(parent);
+		
+		
 	}
 	//Otherwise, insert the value to the right.
 	parent->setRight(parent);
@@ -275,6 +277,7 @@ bool BinaryTree::findNode(int searchValue, TreeNode*& nodeFound, TreeNode*& node
 		nodeParent = currentNode;
 		//Set the current node to be its left child.
 		currentNode->setLeft(currentNode);
+		
 	}
 			
 	//end loop
